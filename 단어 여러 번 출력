@@ -1,0 +1,6 @@
+ch, n = input().split()
+print(ch * int(n))
+
+결과 
+love 3 입력 시 
+lovelovelove 
