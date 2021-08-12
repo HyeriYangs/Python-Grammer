@@ -1,9 +1,9 @@
 import os
 print(__file__)
 print(os.path.realpath(__file__))
-print(os.path.abspath(__file__))
+print("\""+os.path.abspath(__file__)+"\"")
 
 결과 
 C:/python/CodeUp/ex/ex1.py
 C:\python\CodeUp\ex\ex1.py
-C:\python\CodeUp\ex\ex1.py
+"C:\python\CodeUp\ex\ex1.py"
