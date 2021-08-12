@@ -1,0 +1,5 @@
+num1, num2 = input().split('-')
+print(num1+num2)
+
+결과 
+yymmdd-00000 입력시 '-' 빼고 yymmdd00000 로 출력
