@@ -7,3 +7,13 @@ while t<=c :
 결과 
 f 입력 시 
 a b c d e f 
+
+
+## 숫자 버전 
+c = int(input())
+t = 0
+while t<=c :
+  print(t, end=' ')
+  t += 1
+  
+결과 : 4 입력 시 0 1 2 3 4 이렇게 출력
