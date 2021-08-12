@@ -1,0 +1,21 @@
+a = bool(int(input()))
+print(not a)
+
+결과 : 1 입력 시 False 
+
+## 둘 다 참일 경우 참 출력 : and 사용
+a, b = input().split()
+print(bool(int(a)) and bool(int(b)))
+
+## 둘 다 거짓일 경우 참 출력 : not A or B 사용 
+a, b = input().split()
+print(not bool(int(a)) or bool(int(b)))
+
+## 세 정수에서 최소값 구하기 : and 사용 
+a, b, c = map(int, input().split())
+if a> b and c>b :
+    print(b)
+elif c>a and b>a :
+    print(a)
+else:
+    print(c)
