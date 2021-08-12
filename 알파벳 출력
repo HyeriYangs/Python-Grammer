@@ -1,0 +1,9 @@
+c = ord(input())
+t = ord('a')
+while t<=c :
+  print(chr(t), end=' ')
+  t += 1
+  
+결과 
+f 입력 시 
+a b c d e f 
